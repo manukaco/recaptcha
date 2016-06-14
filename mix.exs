@@ -23,7 +23,7 @@ defmodule Recaptcha.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 0.8.3"},
-      {:poison, "~> 2.1.0"}
+      {:poison, ">= 1.5"}
     ]
   end
 
